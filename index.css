@@ -1,0 +1,43 @@
+body{
+    height: 90vh;
+    width: 100%;
+}
+
+.container{
+    border:1px solid black;
+    width: 600px;
+    height:70vh;
+    display:flex;
+    /* flex-direction:row; */
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* flex-wrap: wrap; */
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+.box1, .box2, .box3{
+    padding:10px;
+    /* width: 200px;
+    height: 200px; */
+}
+
+.box1{
+    background-color: yellowgreen;
+    /* order:1;
+    height: 90px; */
+    flex-basis: 100px;
+}
+
+.box2{
+    background-color: yellow;
+    /* order:2; */
+    /* height: 150px; */
+}
+
+.box3{
+    background-color: aqua;
+    /* height: 80px; */
+    flex-basis: 70px;
+}
